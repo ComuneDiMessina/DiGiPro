@@ -1,0 +1,98 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head></head>
+ <body>
+  <div class="row" id="DATI DELLA RICHIESTA"> 
+   <div class="column col-md-12 col-sm-12 col-xs-12"> 
+    <!--gm-editable-region-->
+    <h3 style="text-align: center;"><strong>Richiesta del&nbsp;<input type="text" data-cke-editable="1" data-cke-saved-name="dataRichiesta" name="dataRichiesta" placeholder="gg/mm/aaaa" current-date="" data-validation-type="base" data-saved-regexp="" ng-disabled="disabledFields" regexp=""></strong></h3>
+    <p><strong>Dati del richiedente:</strong></p>
+    <table style="width:100%; background-color:#f5f5f5;" class="cke_show_border" cellspacing="1" cellpadding="1" border="0">
+     <tbody style="background-color:#f5f5f5;">
+      <tr>
+       <td>Cognome</td>
+       <td><strong><input type="text" data-cke-editable="1" data-cke-saved-name="cognome" name="cognome" ng-model="extraData.formUser.lastName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" required="true" regexp=""></strong></td>
+       <td>Nome</td>
+       <td><strong><input type="text" data-cke-editable="1" data-cke-saved-name="nome" name="nome" ng-model="extraData.formUser.firstName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" required="true" regexp=""></strong></td>
+      </tr>
+      <tr>
+       <td>Codice Fiscale</td>
+       <td><strong><input type="text" data-cke-editable="1" data-cke-saved-name="codFiscale" name="codFiscale" ng-model="extraData.formUser.fiscalCode" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" required="true" regexp=""></strong></td>
+       <td>Data di nascita</td>
+       <td><strong><input type="text" data-cke-editable="1" data-cke-saved-name="dataNascita" name="dataNascita" ng-model="extraData.formUser.birthDate" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" required="true" regexp=""></strong></td>
+      </tr>
+      <tr>
+       <td>Nazione di nascita</td>
+       <td><strong><input type="text" data-cke-editable="1" data-cke-saved-name="nazNascita" name="nazNascita" placeholder="Nazione di nascita" data-validation-type="base" data-saved-regexp="" required="true" regexp="" ng-model="extraData.formUser.birthCountry"></strong></td>
+       <td>Prov. di nascita</td>
+       <td><strong><input type="text" data-cke-editable="1" data-cke-saved-name="provNascita" ng-model="extraData.formUser.province" placeholder="Prov. di nascita" data-validation-type="base" data-saved-regexp="" name="provNascita" required="true" regexp=""></strong></td>
+      </tr>
+      <tr>
+       <td>Comune di nascita</td>
+       <td><strong><input type="text" data-cke-editable="1" data-cke-saved-name="cittaNascita" name="cittaNascita" ng-model="extraData.formUser.birthPlace" placeholder="Luogo di nascita" data-validation-type="base" data-saved-regexp="" required="true" regexp=""></strong></td>
+       <td><br></td>
+       <td><br></td>
+      </tr>
+      <tr>
+       <td><br></td>
+       <td><br></td>
+       <td><br></td>
+       <td><br></td>
+      </tr>
+      <tr>
+       <td>Nazione di residenza</td>
+       <td><strong><input type="text" data-cke-editable="1" data-cke-saved-name="nazResidenza" name="nazResidenza" ng-model="extraData.formUser.residenceCountry" placeholder="Nazione di residenza" data-validation-type="base" data-saved-regexp="" required="true" regexp=""></strong></td>
+       <td>Prov. di residenza</td>
+       <td><strong><input type="text" data-cke-editable="1" data-cke-saved-name="provResidenza" name="provResidenza" ng-model="extraData.formUser.residenceProvince" placeholder="Prov. di residenza" data-validation-type="base" data-saved-regexp="" required="true" regexp=""></strong></td>
+      </tr>
+      <tr>
+       <td>Comune di residenza</td>
+       <td><strong><input type="text" data-cke-editable="1" data-cke-saved-name="comuneResidenza" ng-model="extraData.formUser.residenceMunicipality" placeholder="Comune di residenza" data-validation-type="base" data-saved-regexp="" name="comuneResidenza" required="true" regexp=""></strong></td>
+       <td>Cap</td>
+       <td><strong><input type="text" data-cke-editable="1" data-cke-saved-name="capResidenza" name="capResidenza" ng-model="extraData.formUser.residencePostalcode" placeholder="Cap di residenza" data-validation-type="base" data-saved-regexp="" required="true" regexp=""></strong></td>
+      </tr>
+      <tr>
+       <td>Indirizzo di residenza</td>
+       <td><strong><input type="text" data-cke-editable="1" data-cke-saved-name="indirizzoResidenza" name="indirizzoResidenza" ng-model="extraData.formUser.address" placeholder="Via/Viale/P.zza/C.da" data-validation-type="base" data-saved-regexp="" required="true" regexp=""></strong></td>
+       <td>N. civico residenza</td>
+       <td><strong><input type="text" data-cke-editable="1" data-cke-saved-name="numCivico" name="numCivico" ng-model="extraData.formUser.residenceCnumber" placeholder="N. civico residenza" data-validation-type="base" data-saved-regexp="" regexp=""></strong></td>
+      </tr>
+      <tr>
+       <td><br></td>
+       <td><br></td>
+       <td><br></td>
+       <td><br></td>
+      </tr>
+      <tr>
+       <td>E-mail</td>
+       <td><strong><input type="text" data-cke-editable="1" data-cke-saved-name="email" name="email" ng-model="extraData.formUser.email" placeholder="" data-validation-type="base" data-saved-regexp="" ng-disabled="disabledFields" regexp=""></strong></td>
+       <td>Telefono</td>
+       <td><strong><input type="text" data-cke-editable="1" data-cke-saved-name="telefono" ng-model="extraData.formUser.telephone" placeholder="Recapito telefonico" data-validation-type="base" data-saved-regexp="" name="telefono" required="true" regexp=""></strong></td>
+      </tr>
+     </tbody>
+    </table>
+    <p><br></p>
+    <p><b>Descrizione della richiesta:</b></p>
+    <p><textarea data-cke-saved-name="descrizione" name="descrizione" style="width:100%;" placeholder="Descrizione della richiesta" data-cke-editable="1" required="true" rows="6"></textarea></p>
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px">
+     <br>
+    </div>
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px">
+     <br>
+    </div>
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px">
+     <br>
+    </div>
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px">
+     <br>
+    </div>
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px">
+     <br>
+    </div>
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px">
+     <br>
+    </div>
+    <!--/gm-editable-region--> 
+   </div> 
+  </div> 
+ </body>
+</html>

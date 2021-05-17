@@ -1,0 +1,42 @@
+<style>
+
+#header h1 img {
+  width:125px;
+  height:68px;
+  box-sizing:border-box;
+  padding-left: 250px;
+  /*width of the image*/
+}
+
+#footer p img {
+  width:125px;
+  height:60px;
+  box-sizing:border-box;
+  padding-left: 200px;
+  /*width of the image*/
+  background: url(/KeySuite-LOGO-footer.png) left top no-repeat;
+}
+
+/* table.table100.nowrap tr td:first-child, table.table100.nowrap tr th:first-child
+{
+ display: none;
+}*/
+.monheader{
+display:none}
+
+#sidnActivity,#viewListMessages,#taskListNotification,li a[href='/AppBPM/searchPreferredProcesses']{
+display:none;
+}
+
+td[name=cell_taskId] a span,td[name=cell_primaryInstanceId] a span,td[name=cell_processInstanceId] a span,td[name=cell_data_inizio] span{
+  white-space: inherit;
+}
+
+</style>
+<script type="text/javascript">
+$( document ).ready(function() {
+var nomeEnte=currentWorkingArea.replace("/DOCAREA/","");
+nomeEnte=nomeEnte.replaceAll(" ","");
+ $("#header h1 img").css("background","url(/logo/Keysuite-header-"+nomeEnte+".jpg) left top no-repeat");
+});
+</script>

@@ -1,0 +1,442 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head></head>
+ <body>
+  <div class="row" id="Richiesta concessione contributo"> 
+   <div class="column col-md-12 col-sm-12 col-xs-12"> 
+    <!--gm-editable-region-->
+    <h3 style="text-align: center;margin-top:0;"><strong>RICHIESTA DI CONCESSIONE CONTRIBUTO</strong></h3> 
+    <p><br></p> 
+    <p style="text-align: right;"><b>Al Sig. Sindaco del<br>Comune di Messina</b></p> 
+    <p><br></p> 
+    <table style="background-color:#f5f5f5;width:100%;" class="cke_show_border" cellspacing="1" cellpadding="1" border="0"> 
+     <tbody style="background-color:#f5f5f5"> 
+      <tr> 
+       <td><strong>Il/La sottoscritto/a*</strong></td> 
+       <td><br></td> 
+      </tr> 
+      <tr> 
+       <td>Cognome</td> 
+       <td class="nominativo"><input class="cognome" type="text" data-cke-editable="1" data-cke-saved-name="cognomeCapo" name="cognomeCapo" placeholder="cognome" required="true" data-validation-type="base" data-saved-regexp="" ng-model="extraData.formUser.lastName" ng-disabled="disabledFields" regexp=""><br></td> 
+       <td>Nome</td> 
+       <td class="nominativo"><input type="text" class="nome" data-cke-editable="1" data-cke-saved-name="nomeCapo" ng-model="extraData.formUser.firstName" placeholder="nome" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" name="nomeCapo" regexp=""><br></td> 
+      </tr> 
+      <tr> 
+       <td>Codice fiscale</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="codiceFiscaleCapo" name="codiceFiscaleCapo" ng-model="extraData.formUser.fiscalCode" placeholder="codice fiscale" ng-disabled="disabledFields" required="true" data-validation-type="base" data-saved-regexp="" regexp="^[a-zA-Z]{6}[0-9]{2}[a-zA-Z][0-9]{2}[a-zA-Z][0-9]{3}[a-zA-Z]$"><br></td> 
+       <td>Nato/a il</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="dataNascita" name="dataNascita" placeholder="gg/mm/aaaa" required="true" data-validation-type="base" data-saved-regexp="" ng-model="extraData.formUser.birthDate" ng-disabled="disabledFields"><br></td> 
+      </tr> 
+      <tr> 
+       <td>Nazione di nascita</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="nazioneNascitaCapoG" name="nazioneNascitaCapoG" placeholder="nazione di nascita" data-validation-type="base" data-saved-regexp="" ng-model="extraData.formUser.birthCountry" ng-disabled="disabledFields" regexp=""><br></td> 
+       <td>Prov.</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="provinciaNascitaCapoG" name="provinciaNascitaCapoG" placeholder="provincia" data-validation-type="base" data-saved-regexp="" ng-model="extraData.formUser.province" ng-disabled="disabledFields" regexp=""><br></td> 
+      </tr> 
+      <tr> 
+       <td>Comune di nascita</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="cittaNascitaCapoG" name="cittaNascitaCapoG" placeholder="città di nascita" data-validation-type="base" data-saved-regexp="" regexp="" required="true" ng-disabled="disabledFields" ng-model="extraData.formUser.birthPlace"><br></td> 
+      </tr> 
+      <tr> 
+       <td><br></td> 
+       <td><br></td> 
+      </tr> 
+      <tr> 
+       <td>Nazione di residenza</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="nazRes" name="nazRes" ng-model="extraData.formUser.residenceCountry" placeholder="nazione" data-validation-type="base" data-saved-regexp="" required="true" regexp=""><br></td> 
+       <td>Prov.</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="provResidenza" name="provResidenza" ng-model="extraData.formUser.residenceProvince" placeholder="provincia" data-validation-type="base" data-saved-regexp="" required="true" regexp=""><br></td> 
+      </tr> 
+      <tr> 
+       <td>Comune di residenza</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="cittaResidenza" ng-model="extraData.formUser.residenceMunicipality" placeholder="città residenza" data-validation-type="base" data-saved-regexp="" name="cittaResidenza" required="true" regexp=""><br></td> 
+       <td>CAP</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="capResidenza" ng-model="extraData.formUser.residencePostalcode" placeholder="cap residenza" data-validation-type="base" data-saved-regexp="" name="capResidenza" maxlength="5" required="true" regexp=""><br></td> 
+      </tr> 
+      <tr> 
+       <td>Via</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="indirizzoResidenza" name="indirizzoResidenza" ng-model="extraData.formUser.address" placeholder="via/viale/c.so..." data-validation-type="base" data-saved-regexp="" required="true" regexp=""><br></td> 
+       <td>N.</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="numResidenza" name="numResidenza" ng-model="extraData.formUser.residenceCnumber" placeholder="num civico" data-validation-type="base" data-saved-regexp="" regexp=""><br></td> 
+      </tr> 
+      <tr> 
+       <td><br></td> 
+       <td><br></td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <table style="background-color:#f5f5f5;width:100%;" class="cke_show_border" cellspacing="1" cellpadding="1" border="0"> 
+     <tbody style="background-color:#f5f5f5"> 
+      <tr> 
+       <td style="width:25%">In qualità di</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="inqualitadi" name="inqualitadi" placeholder="in qualità di" required="true" data-validation-type="base" data-saved-regexp="" regexp="" style="width:90%"><br></td> 
+      </tr> 
+      <tr> 
+       <td>Della</td> 
+       <td><input id="societa" type="text" data-cke-editable="1" data-cke-saved-name="associazione" name="associazione" placeholder="associazione" required="true" data-validation-type="base" data-saved-regexp="" regexp="" style="width:90%" data-cke-pa-onchange="popola('societa')"><br></td> 
+      </tr> 
+      <tr> 
+       <td>Con riferimento all'iniziativa</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="rifIniziativa" name="rifIniziativa" placeholder="riferimento iniziativa" data-validation-type="base" data-saved-regexp="" regexp="" required="true" style="width:90%"><br></td> 
+      </tr> 
+      <tr> 
+       <td>Che si svolgerà in data (gg/mm/aaaa)</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="dataIniziativa" name="dataIniziativa" placeholder="data iniziativa" data-validation-type="base" data-saved-regexp="" regexp="^(?:(?:31(\/)(?:0?[13578]|1[02]))\1|(?:(?:29|30)(\/)(?:0?[1,3-9]|1[0-2])\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:29(\/)0?2\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\d|2[0-8])(\/)(?:(?:0?[1-9])|(?:1[0-2]))\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$" required="true" style="width:90%"><br></td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <p><br></p> 
+    <p style="text-align:center;"><b>CHIEDE</b></p> 
+    <p><br></p> 
+    <p>un contributo economico per lo svolgimento della manifestazione che prevede quanto segue:</p> 
+    <p><textarea data-cke-saved-name="descrizionemanifestazione" name="descrizionemanifestazione" style="width:100%;" rows="2" placeholder="" required="true" data-cke-editable="1"></textarea></p> 
+    <p>fa presente altresì che l'iniziativa è assistita dai seguenti contributi:</p> 
+    <p><textarea data-cke-saved-name="contributimanifestazione" name="contributimanifestazione" style="width:100%;" rows="2" placeholder="" required="true" data-cke-editable="1"></textarea></p> 
+    <p>Il piano finanziario prevede in dettaglio, le seguenti voci di entrate e di spesa:</p> 
+    <ul> 
+     <li>Indicare le singole ENTRATE 
+      <div style="background:#eee;padding:5px 10px;" id="div_entratespese" repeatable=""> 
+       <p>Importo: <input type="text" data-cke-editable="1" data-cke-saved-name="voceentrata" name="voceentrata" onchange="calcolaEntrate()" placeholder="importo" required="true" data-validation-type="base" data-saved-regexp="" regexp="^\d+(,\d+)?$" size="10"> euro&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Descrizione: <input type="text" data-cke-editable="1" data-cke-saved-name="descentrata" name="descentrata" placeholder="descrizione" required="true" data-validation-type="base" data-saved-regexp="" size="30" regexp=""></p> 
+       <input value="Aggiungi altra ENTRATA" type="button" data-cke-saved-type="repeat" data-cke-editable="1" name="btnentrate" data-cke-saved-name="btnentrate" repeat-button="repeat-button" my-document="myDocument"> 
+      </div><p>Per un TOTALE ENTRATE di <input type="text" data-cke-editable="1" data-cke-saved-name="totaleentrate" id="totaleentrate" name="totaleentrate" placeholder="" required="true" data-validation-type="base" data-saved-regexp="" regexp="" readonly> euro</p></li> 
+     <li>Indicare le singole USCITE 
+      <div style="background:#eee;padding:5px 10px;" id="div_uscite" repeatable=""> 
+       <p>Importo: <input type="text" data-cke-editable="1" data-cke-saved-name="inputuscita" name="inputuscita" placeholder="importo" onchange="calcolaUscite()" required="true" data-validation-type="base" data-saved-regexp="" size="10" regexp="^\d+(,\d+)?$"> euro&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Descrizione: <input type="text" data-cke-editable="1" data-cke-saved-name="descuscita" name="descuscita" size="30" placeholder="descrizione" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></p> 
+       <input name="btnuscite" data-cke-saved-name="btnuscite" value="Aggiungi altra USCITA" type="button" data-cke-saved-type="repeat" repeat-button="repeat-button" my-document="myDocument" data-cke-editable="1"> 
+      </div><p>Per un TOTALE USCITE di <input type="text" data-cke-editable="1" data-cke-saved-name="totaleuscite" id="totaleuscite" name="totaleuscite" placeholder="" required="true" data-validation-type="base" data-saved-regexp="" regexp="" readonly> euro</p></li> 
+    </ul> 
+    <p><br></p> 
+    <p>Si allegano</p> 
+    <p><br></p> 
+    <ol> 
+     <li>Statuto: <input name="btnstatuto" data-cke-saved-name="btnstatuto" value="Allega Statuto" type="button" data-cke-saved-type="upload" data-cke-editable="1" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" upload-required="true" uploader-module="Statuto"></li> 
+     <li>Relazione illustrativa dell'iniziativa e un prospetto riassuntivo dell'attività degli ultimi tre anni: <input name="btnrelazione" data-cke-saved-name="btnrelazione" value="Allega Relazione" type="button" data-cke-saved-type="upload" data-cke-editable="1" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" upload-required="true" uploader-module="Relazione"></li> 
+     <li>Copia carta d'identità: <input name="btn_identita" data-cke-saved-name="btn_identita" value="Allega Carta identità" type="button" data-cke-saved-type="upload" data-cke-editable="1" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" upload-required="true" uploader-module="Carta di identità"></li> 
+    </ol> 
+    <div style="text-align:right"> 
+     <p>Il Sottoscritto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+     <p><strong><input type="text" data-cke-editable="1" data-cke-saved-name="CognomeFirma_510662762_727807582_1887811084" name="CognomeFirma_510662762_727807582_1887811084" ng-model="extraData.formUser.lastName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="">&nbsp;<input type="text" data-cke-editable="1" data-cke-saved-name="nomeFirma_487797219_2035820701_1189434761" name="nomeFirma_487797219_2035820701_1189434761" ng-model="extraData.formUser.firstName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp=""></strong></p> 
+    </div> 
+    <p><br></p> 
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px"> 
+     <br> 
+    </div> 
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px"> 
+     <br> 
+    </div> 
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px">
+      &nbsp; 
+    </div>
+    <!--/gm-editable-region--> 
+   </div> 
+  </div> 
+  <div class="row" id="Scheda informativa"> 
+   <div class="column col-md-12 col-sm-12 col-xs-12"> 
+    <!--gm-editable-region-->
+    <h3 style="text-align: center;margin-top:0;"><strong>Scheda informativa</strong></h3> 
+    <p><br></p> 
+    <p><b>Denominazione completa dell'ORGANISMO RICHIEDENTE (indicare l'esatta dicitura risultante all'anagrafe tributaria):</b></p> 
+    <p></p> 
+    <table style="background-color:#f5f5f5;width:100%;" class="cke_show_border" cellspacing="1" cellpadding="1" border="0"> 
+     <tbody style="background-color:#f5f5f5"> 
+      <tr> 
+       <td>Sede</td> 
+       <td><input type="text" id="sede" onchange="popola('sede')" data-cke-editable="1" data-cke-saved-name="sedeScheda" name="sedeScheda" placeholder="sede" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+       <td>Circoscrizione</td> 
+       <td><input type="text" id="circoscrizione" onchange="popola('circoscrizione')" data-cke-editable="1" data-cke-saved-name="circoscrizioneScheda" name="circoscrizioneScheda" placeholder="circoscrizione" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td>Tel./Cell.</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="telScheda" name="telScheda" placeholder="telefono" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+       <td>Fax</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="faxScheda" name="faxScheda" placeholder="fax" required data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td>Codice fiscale</td> 
+       <td><input id="cf" onchange="popola('cf')" type="text" data-cke-editable="1" data-cke-saved-name="cfScheda" name="cfScheda" placeholder="codice fiscale" required="true" data-validation-type="base" data-saved-regexp="" regexp="" minlength="11" maxlength="16"></td> 
+       <td>P. IVA</td> 
+       <td><input id="piva" onchange="popola('piva')" type="text" data-cke-editable="1" data-cke-saved-name="pivaScheda" name="pivaScheda" placeholder="p. iva" required="true" data-validation-type="base" data-saved-regexp="" regexp="" minlength="11" maxlength="11"></td> 
+      </tr> 
+      <tr> 
+       <td><br></td> 
+       <td><br></td> 
+       <td><br></td> 
+       <td><br></td> 
+      </tr> 
+      <tr> 
+       <td style="text-decoration: underline;">Legale rappresentante</td> 
+      </tr> 
+      <tr> 
+       <td>Cognome</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="cognomeScheda" name="cognomeScheda" placeholder="cognome" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+       <td>Nome</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="nomeScheda" name="nomeScheda" placeholder="nome" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td>Codice fiscale</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="cfrappresentanteScheda" name="cfrappresentanteScheda" placeholder="codice fiscale" required="true" data-validation-type="base" data-saved-regexp="" regexp="^[a-zA-Z]{6}[0-9]{2}[a-zA-Z][0-9]{2}[a-zA-Z][0-9]{3}[a-zA-Z]$" minlength="16" maxlength="16"></td> 
+       <td><br></td> 
+       <td><br></td> 
+      </tr> 
+      <tr> 
+       <td>Data di nascita</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="datanascitaScheda" name="datanascitaScheda" placeholder="data nascita" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+       <td>Luogo di nascita</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="luogonascitaScheda" name="luogonascitaScheda" placeholder="luogo nascita" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td>Comune di residenza</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="cittaResidenzaScheda" placeholder="città residenza" data-validation-type="base" data-saved-regexp="" name="cittaResidenzaScheda" required="true" regexp=""></td> 
+       <td>CAP</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="capResidenzaScheda" placeholder="cap residenza" data-validation-type="base" data-saved-regexp="" name="capResidenzaScheda" maxlength="5" required="true" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td>Via</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="indirizzoResidenzaScheda" name="indirizzoResidenzaScheda" placeholder="via/viale/c.so..." data-validation-type="base" data-saved-regexp="" required="true" regexp=""></td> 
+       <td>N.</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="numResidenzaScheda" name="numResidenzaScheda" placeholder="num civico" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td><br></td> 
+       <td><br></td> 
+       <td><br></td> 
+       <td><br></td> 
+      </tr> 
+      <tr> 
+       <td>Anno di fondazione</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="annofScheda" name="annofScheda" placeholder="anno" required="true" data-validation-type="base" data-saved-regexp="" regexp="" minlength="4" maxlength="4"></td> 
+       <td>Anno di emanazione statuto</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="annosScheda" name="annosScheda" placeholder="anno" required="true" data-validation-type="base" data-saved-regexp="" regexp="" minlength="4" maxlength="4"></td> 
+      </tr> 
+      <tr> 
+       <td>Configurazione giuridica</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="confgScheda" name="confgScheda" placeholder="conf. giuridica" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+       <td>Configurazione organizzativa</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="confoScheda" name="confoScheda" placeholder="conf. organizzativa" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td>N. complessivo iscritti</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="iscrittiScheda" name="iscrittiScheda" placeholder="n. iscritti" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+       <td><br></td> 
+       <td><br></td> 
+      </tr> 
+      <tr> 
+       <td>N. Personale dipendente<br></td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="ndipendentiScheda" name="ndipendentiScheda" placeholder="n. dipendenti" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+       <td>N. Personale volontario</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="nvolontariScheda" name="nvolontariScheda" placeholder="n. volontari" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <br> 
+    <p>Finalità perseguite:</p> 
+    <p><textarea style="width:100%;" data-cke-saved-name="finalitaScheda" name="finalitaScheda" rows="2" placeholder="" required="true" data-cke-editable="1"></textarea><br></p> 
+    <p>Attività svolte nell'ultimo triennio:</p> 
+    <p><textarea data-cke-saved-name="attivitatriennioScheda" name="attivitatriennioScheda" rows="2" placeholder="" required="true" data-cke-editable="1" style="width:100%;"></textarea><br></p> 
+    <p>Fonti di finanziamento:</p> 
+    <p><textarea style="width:100%;" data-cke-saved-name="finanziamentiScheda" name="finanziamentiScheda" rows="2" placeholder="" required="true" data-cke-editable="1"></textarea><br></p> 
+    <p>Calendario annuale delle attività:<br></p> 
+    <p><textarea style="width:100%;" data-cke-saved-name="calendarioScheda" name="calendarioScheda" rows="2" placeholder="" required="true" data-cke-editable="1"></textarea><br></p> 
+    <div style="text-align:right"> 
+     <p>Il Sottoscritto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+     <p><strong><input type="text" data-cke-editable="1" data-cke-saved-name="CognomeFirma_510662762_727807582_1796853627" name="CognomeFirma_510662762_727807582_1796853627" ng-model="extraData.formUser.lastName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="">&nbsp;<input type="text" data-cke-editable="1" data-cke-saved-name="nomeFirma_487797219_2035820701_606194871" name="nomeFirma_487797219_2035820701_606194871" ng-model="extraData.formUser.firstName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp=""></strong></p> 
+    </div> 
+    <p><br></p>
+    <!--/gm-editable-region--> 
+   </div> 
+  </div> 
+  <div class="row" id="DICHIARAZIONE SOSTITUTIVA"> 
+   <div class="column col-md-12 col-sm-12 col-xs-12"> 
+    <!--gm-editable-region-->
+    <h3 style="text-align: center;margin-top:0;"><strong>Dichiarazione sostitutiva di certificazione</strong><br></h3> 
+    <p style="text-align: center;"><b>D.P.R. 28.12.2000 n. 445 art. 46</b></p> 
+    <p><br></p> 
+    <p style="text-align: justify;">Il sottoscritto <input class="cognome" type="text" data-cke-editable="1" required="true" data-validation-type="base" data-saved-regexp="" ng-model="extraData.formUser.lastName" ng-disabled="disabledFields" regexp="" data-cke-saved-name="field_1602686729_656362681" name="field_1602686729_656362681"> <input type="text" data-cke-editable="1" ng-model="extraData.formUser.firstName" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="" data-cke-saved-name="field_1602686729_2123166078" name="field_1602686729_2123166078"> nato a <input type="text" data-cke-editable="1" ng-model="extraData.formUser.birthPlace" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="" data-cke-saved-name="field_1602686729_670629151" name="field_1602686729_670629151"> il <input type="text" data-cke-editable="1" ng-model="extraData.formUser.birthDate" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="" data-cke-saved-name="field_1602686729_1180521086" name="field_1602686729_1180521086"> e residente a <input type="text" data-cke-editable="1" ng-model="extraData.formUser.residenceMunicipality" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="" data-cke-saved-name="field_1602686729_461022353" name="field_1602686729_461022353"> in via/piazza <input type="text" data-cke-editable="1" ng-model="extraData.formUser.address" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="" data-cke-saved-name="field_1602686729_40155531" name="field_1602686729_40155531"> <input type="text" data-cke-editable="1" ng-model="extraData.formUser.residenceCnumber" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="" data-cke-saved-name="field_1602686729_1653914824" name="field_1602686729_1653914824"> , consapevole delle sanzioni penali previste in caso di dichiarazione mendace (art. 76 D.P.R. 445/2000 e art. 476 segg. Codice Penale) in qualità di Presidente e legale rappresentante dell'Associazione Ente</p> 
+    <p><input type="text" data-cke-editable="1" data-cke-saved-name="dichiarazione_associazione" name="dichiarazione_associazione" placeholder="" required="true" data-validation-type="base" data-saved-regexp="" regexp="" style="width:100%"></p> 
+    <p style="text-align:center;"><b>DICHIARA</b></p> 
+    <p style="text-align: justify;"><b>- che le pezze giustificative delle spese sostenute sono conservate agli atti del richiedente, per ogni eventuale controllo da parte dell'ente erogatore;</b></p> 
+    <p style="text-align: justify;">- che nè il sottoscritto nè i rappresentanti, nè i soci aderenti all'Associazione da me rappresentata percepiscono compensi a qualsiasi titolo per l'attività dell'Associazione stessa;</p> 
+    <p style="text-align: justify;"><input type="radio" data-cke-editable="1" data-cke-saved-name="dichassolvimento" name="dichassolvimento" value="no" required class="dynamic_binded_control_highlight" saved-binding-ids="element-binding-div_dichiarazione_assolvimento;" dynamic-binded-control="">&nbsp;che non è tenuto all'assolvimento degli obblighi di versamento dei contributi assicurativi stabiliti dalle vigenti disposizioni (art. 2 del D.L. n. 210/2002 convertito in legge n. 266/2002) in quanto NON INTRATTIENE ALCUN RAPPORTO LAVORO SUBORDINATO E QUINDI NON HA DIPENDENTI CON POSIZIONEINPS/INAIL</p> 
+    <div style="background:#eee;border:1px solid #ccc;padding:5px 10px;" id="div_dichiarazione_assolvimento" specialdivbindingswitch="true" data-binding-id="element-binding-div_dichiarazione_assolvimento" class="is-bound" is-bound-to="dichassolvimento-no"> 
+     <p><input type="radio" data-cke-editable="1" data-cke-saved-name="check_dichiarazione_assolvimento" name="check_dichiarazione_assolvimento" value="no" required> E NON SI AVVALE DI VOLONTARI</p> 
+     <p><input type="radio" data-cke-editable="1" data-cke-saved-name="check_dichiarazione_assolvimento" name="check_dichiarazione_assolvimento" value="si" class="dynamic_binded_control_highlight" saved-binding-ids="element-binding-divsubassolvimento;" dynamic-binded-control=""> E SI AVVALE DI VOLONTARI e ha in essere la seguente polizza assicurativa privata con la compagnia</p> 
+     <div style="background:#fff;border:1px solid #fff;padding:5px 10px;" id="divsubassolvimento" specialdivbindingswitch="true" data-binding-id="element-binding-divsubassolvimento" class="is-bound" is-bound-to="check_dichiarazione_assolvimento-si"> 
+      <ul> 
+       <li>Agenzia<br><input type="text" data-cke-editable="1" data-cke-saved-name="dich_agenziapolizza" name="dich_agenziapolizza" placeholder="" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></li> 
+       <li>Polizza n.<br><input type="text" data-cke-editable="1" data-cke-saved-name="dich_polizzan" name="dich_polizzan" placeholder="" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></li> 
+       <li>Con validità fino al (gg/mm/aaaa)<br><input type="text" data-cke-editable="1" data-cke-saved-name="dich_validitapolizza" name="dich_validitapolizza" placeholder="" required="true" data-validation-type="base" data-saved-regexp="" regexp="^(?:(?:31(\/)(?:0?[13578]|1[02]))\1|(?:(?:29|30)(\/)(?:0?[1,3-9]|1[0-2])\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:29(\/)0?2\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\d|2[0-8])(\/)(?:(?:0?[1-9])|(?:1[0-2]))\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$"></li> 
+       <li>come da copia allegata: <input name="upload_polizza" data-cke-saved-name="upload_polizza" value="ALLEGA POLIZZA ASSICURATIVA" type="button" data-cke-saved-type="upload" data-cke-editable="1" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" upload-required="true"></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <p style="text-align: justify;"><input type="radio" data-cke-editable="1" data-cke-saved-name="dichassolvimento" name="dichassolvimento" value="si" required>&nbsp;che è tenuto all'assolvimento degli obblighi di versamento dei contributi assicurativi stabiliti dalle vigenti disposizioni (art. 2 del D.L. n. 210/2002 convertito in legge n. 266/2002) in quanto INTRATTIENE RAPPORTO DI LAVORO SUBORDINATO</p> 
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px"> 
+     <br> 
+    </div> 
+    <div style="text-align:right"> 
+     <p>Il Sottoscritto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+     <p><strong><input type="text" data-cke-editable="1" data-cke-saved-name="CognomeFirma_510662762_727807582_1673263661" name="CognomeFirma_510662762_727807582_1673263661" ng-model="extraData.formUser.lastName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="">&nbsp;<input type="text" data-cke-editable="1" data-cke-saved-name="nomeFirma_487797219_2035820701_1552619253" name="nomeFirma_487797219_2035820701_1552619253" ng-model="extraData.formUser.firstName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp=""></strong></p> 
+    </div> 
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px"> 
+     <br> 
+    </div> 
+    <p><br></p>
+    <!--/gm-editable-region--> 
+   </div> 
+  </div> 
+  <div class="row" id="Marca da bollo"> 
+   <div class="column col-md-12 col-sm-12 col-xs-12"> 
+    <!--gm-editable-region-->
+    <h3 style="text-align: center;margin-top:0;"><strong>Marca da bollo</strong></h3>
+    <p><br></p>
+    <p style="text-align: justify;">Il sottoscritto <input type="text" data-cke-editable="1" data-cke-saved-name="CognomeFirma_259267143_2017444385" name="CognomeFirma_259267143_2017444385" ng-model="extraData.formUser.lastName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="">&nbsp;<input type="text" data-cke-editable="1" data-cke-saved-name="nomeFirma_1951729660_1052952843" name="nomeFirma_1951729660_1052952843" ng-model="extraData.formUser.firstName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="">, nato a <input type="text" data-cke-editable="1" ng-model="extraData.formUser.birthPlace" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="" data-cke-saved-name="field_1602668423_2136261572" name="field_1602668423_2136261572"> il <input type="text" data-cke-editable="1" ng-model="extraData.formUser.birthDate" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="" data-cke-saved-name="field_1602668423_395957920" name="field_1602668423_395957920">, codice fiscale <input type="text" data-cke-editable="1" ng-model="extraData.formUser.fiscalCode" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="" data-cke-saved-name="field_1602668423_1060888568" name="field_1602668423_1060888568"></p>
+    <p style="text-align:center;"><b>DICHIARA</b></p>
+    <p><input type="radio" data-cke-editable="1" data-cke-saved-name="bollo" name="bollo" value="no" required>&nbsp;di essere esente dal pagamento dell'imposta di bollo.</p>
+    <p><input type="radio" data-cke-editable="1" data-cke-saved-name="bollo" name="bollo" value="si" class="dynamic_binded_control_highlight" saved-binding-ids="element-binding-div_marcabollo;" dynamic-binded-control="">&nbsp;di non essere esente dal pagamento dell'imposta di bollo.</p>
+    <div style="background:#eee;border:1px solid #ccc;padding:5px 10px;" id="div_marcabollo" specialdivbindingswitch="true" data-binding-id="element-binding-div_marcabollo" class="is-bound" is-bound-to="bollo-si">
+     <p>Pertanto,&nbsp;la marca da bollo utilizzata nell'allegata istanza, trasmessa per via telematica, ha:</p>
+     <ul>
+      <li>numero identificativo<br><input type="text" data-cke-editable="1" data-cke-saved-name="numBollo" name="numBollo" placeholder="numero marca da bollo" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></li>
+      <li>data di emissione<br><input type="text" data-cke-editable="1" data-cke-saved-name="databollo_284911405" name="databollo_284911405" placeholder="data emissione" required="true" data-validation-type="base" data-saved-regexp="" regexp="^(?:(?:31(\/)(?:0?[13578]|1[02]))\1|(?:(?:29|30)(\/)(?:0?[1,3-9]|1[0-2])\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:29(\/)0?2\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\d|2[0-8])(\/)(?:(?:0?[1-9])|(?:1[0-2]))\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$"></li>
+     </ul>
+    </div>
+    <p style="text-align: justify; "><br></p>
+    <p style="text-align: justify; ">Il sottoscritto è consapevole:<br></p>
+    <ol>
+     <li style="text-align: justify;">di essere penalmente responsabile se rilascia false dichiarazioni (art. 76 D.P.R. 445/2000);<br></li>
+     <li style="text-align: justify;">di decadere dai benefici a seguito di un provvedimento adottato sulla base delle false dichiarazioni (art. 75 D.P.R. 445/2000).<br></li>
+    </ol>
+    <p style="text-align: justify;">L'amministrazione si riserva di controllare la veridicità delle dichiarazioni rese (art. 71 D.P.R. 445/2000).<br></p>
+    <p style="text-align: justify; margin-left: 40px;"><input type="checkbox" data-cke-editable="1" data-cke-saved-name="marcabollocheck" name="marcabollocheck" value="marcabollocheck" required><b>&nbsp;Presa visione e accettazione*</b></p>
+    <p><br></p>
+    <div style="text-align:right">
+     <p>Il Sottoscritto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+     <p><strong><input type="text" data-cke-editable="1" data-cke-saved-name="CognomeFirma_510662762_727807582_43784023" name="CognomeFirma_510662762_727807582_43784023" ng-model="extraData.formUser.lastName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="">&nbsp;<input type="text" data-cke-editable="1" data-cke-saved-name="nomeFirma_487797219_2035820701_978062873" name="nomeFirma_487797219_2035820701_978062873" ng-model="extraData.formUser.firstName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp=""></strong></p>
+    </div>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px">
+     <br>
+    </div>
+    <!--/gm-editable-region--> 
+   </div> 
+  </div> 
+  <div class="row" id="Estremi pagamento"> 
+   <div class="column col-md-12 col-sm-12 col-xs-12"> 
+    <!--gm-editable-region-->
+    <h3 style="text-align: center;margin-top:0;"><strong>Comunicazione estremi pagamento </strong></h3> 
+    <p><br></p> 
+    <p style="text-align: justify;">Ai sensi dell'art 3 della legge n.136/2010 il sottoscritto <input type="text" data-cke-editable="1" data-cke-saved-name="CognomeFirma_259267143_576278415" name="CognomeFirma_259267143_576278415" ng-model="extraData.formUser.lastName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="">&nbsp;<input type="text" data-cke-editable="1" data-cke-saved-name="nomeFirma_1951729660_2046572561" name="nomeFirma_1951729660_2046572561" ng-model="extraData.formUser.firstName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="">, nato a <input type="text" data-cke-editable="1" ng-model="extraData.formUser.birthPlace" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="" name="field_1603707738_715387715"> il <input type="text" data-cke-editable="1" ng-model="extraData.formUser.birthDate" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="" name="field_1603707738_223711256">, codice fiscale <input type="text" data-cke-editable="1" ng-model="extraData.formUser.fiscalCode" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="" name="field_1603707738_739434123">, legale rappresentante della società <span class="fill_societa"></span>, con sede a <span class="fill_sede"></span>, circoscrizione <span class="fill_circoscrizione"></span>, codice fiscale <span class="fill_cf"></span> e partita iva <span class="fill_piva"></span>, in merito al contributo relativo a</p> 
+    <p><input type="text" data-cke-editable="1" data-cke-saved-name="desciniziativa" name="desciniziativa" placeholder="" required="true" data-validation-type="base" data-saved-regexp="" regexp="" style="width:100%"><br></p> 
+    <p style="text-align:center;"><b>COMUNICA</b></p> 
+    <ol> 
+     <li> che gli estremi identificativi del c/c dedicato sono: 
+      <ul> 
+       <li>IBAN:<br><input type="text" data-cke-editable="1" data-cke-saved-name="estremipag_iban_siglanazionale" name="estremipag_iban_siglanazionale" maxlength="2" placeholder="" data-validation-type="base" data-saved-regexp="" size="2" required="true" regexp=""> <input type="text" data-cke-editable="1" data-cke-saved-name="estremipag_numcontrollo" name="estremipag_numcontrollo" size="2" maxlength="2" placeholder="" required="true" data-validation-type="builder" data-saved-regexp="" regexp=""> <input type="text" data-cke-editable="1" data-cke-saved-name="estremipag_cin" name="estremipag_cin" size="1" maxlength="1" placeholder="" data-validation-type="base" data-saved-regexp="" required="true" regexp=""> <input type="text" data-cke-editable="1" data-cke-saved-name="estremipag_abi" name="estremipag_abi" size="5" maxlength="5" placeholder="" required="true" data-validation-type="builder" data-saved-regexp="" regexp=""> <input type="text" data-cke-editable="1" data-cke-saved-name="estremipag_cab" name="estremipag_cab" size="5" maxlength="5" placeholder="" required="true" data-validation-type="builder" data-saved-regexp="" regexp=""> <input type="text" data-cke-editable="1" data-cke-saved-name="estremipag_cc" name="estremipag_cc" size="12" maxlength="12" placeholder="" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></li> 
+       <li>Banca:<br><input type="text" data-cke-editable="1" data-cke-saved-name="estremipag_banca" name="estremipag_banca" placeholder="descrizione banca" data-validation-type="base" data-saved-regexp="" required="true" regexp=""></li> 
+       <li>Intestato a:<br><input type="text" data-cke-editable="1" data-cke-saved-name="estremipag_intestatoa" name="estremipag_intestatoa" placeholder="intestato a" data-validation-type="base" data-saved-regexp="" required="true" regexp=""></li> 
+      </ul> </li> 
+     <br> 
+     <li> le persone delegate ad operare su di esso sono: 
+      <div style="background:#eee;border:1px solid #ccc;padding:5px 10px;" id="estremipag_delegati" repeatable=""> 
+       <p>Generalità: <input type="text" data-cke-editable="1" data-cke-saved-name="estremipaggeneralita" name="estremipaggeneralita" placeholder="" data-validation-type="base" data-saved-regexp="" regexp=""> Codice fiscale: <input type="text" data-cke-editable="1" data-cke-saved-name="estremipagcfdelegato" name="estremipagcfdelegato" placeholder="" data-validation-type="base" data-saved-regexp="" regexp="^[a-zA-Z]{6}[0-9]{2}[a-zA-Z][0-9]{2}[a-zA-Z][0-9]{3}[a-zA-Z]$"></p> 
+       <input name="estremipagbtndelegato" data-cke-saved-name="estremipagbtndelegato" value="Aggiungi un altro delegato" type="button" data-cke-saved-type="repeat" repeat-button="repeat-button" my-document="myDocument" data-cke-editable="1"> 
+      </div> </li> 
+    </ol> 
+    <br> 
+    <div style="text-align:right"> 
+     <p>Il Sottoscritto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+     <p><strong><input type="text" data-cke-editable="1" data-cke-saved-name="CognomeFirma_510662762_727807582_1601500385" name="CognomeFirma_510662762_727807582_1601500385" ng-model="extraData.formUser.lastName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="">&nbsp;<input type="text" data-cke-editable="1" data-cke-saved-name="nomeFirma_487797219_2035820701_1449745871" name="nomeFirma_487797219_2035820701_1449745871" ng-model="extraData.formUser.firstName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp=""></strong></p> 
+    </div> 
+    <p><br></p> 
+    <p><br></p>
+    <!--/gm-editable-region--> 
+   </div> 
+  </div> 
+  <div class="row" id="Privacy"> 
+   <div class="column col-md-12 col-sm-12 col-xs-12"> 
+    <!--gm-editable-region-->
+    <h3 style="text-align: center;margin-top:0;"><strong>Informativa privacy (artt. 13-14 Reg. UE 2016/679)</strong></h3> 
+    <br> 
+    <p style="text-align: justify;">In relazione ai dati personali (riferiti a "persona fisica") forniti od acquisiti e trattati dagli uffici del Comune nell'ambito del procedimento relativo alla richiesta di contributo, si informa il richiedente che:<br></p> 
+    <ul> 
+     <li style="text-align: justify;">titolare del trattamento dei dati è il Comune di Messina, con sede a ___, rappresentato per quanto concerne gli obblighi in materia di privacy dal Direttore generale - dato di contatto ___<br></li> 
+     <li style="text-align: justify;">dato di contatto del responsabile della protezione dei dati ____ <br></li> 
+     <li style="text-align: justify;">i dati personali sono trattati per le finalità istituzionali assegnate al Comune ed il trattamento è necessario per l'esecuzione di un compito di interesse pubblico o connesso all'esercizio di pubblici poteri; gli uffici acquisiscono unicamente i dati obbligatori per l'avvio e la conclusione del procedimento amministrativo relativo alla presente istanza <br></li> 
+     <li style="text-align: justify;">il trattamento avviene sia in forma cartacea/manuale che con strumenti elettronici/informatici<br></li> 
+     <li style="text-align: justify;">il trattamento viene svolto in osservanza di disposizioni di legge o di regolamento per adempiere agli obblighi ed alle facoltà ivi previsti in capo agli enti locali, mediante l'utilizzo di misure di sicurezza adeguate<br></li> 
+     <li style="text-align: justify;">le categorie di dati trattati e le modalità sono quelli risultanti dai registri dei trattamenti<br></li> 
+     <li style="text-align: justify;">la comunicazione dei dati a terzi soggetti avviene sulla base di norme di legge o di regolamenti, e comunque al fine di poter erogare i servizi istituzionali e di poter avviare e concludere i procedimenti amministrativi previsti dalla normativa<br></li> 
+     <li style="text-align: justify;">i dati vengono conservati per la durata prevista dalla vigente normativa in materia di conservazione dati/documenti cartacei/digitali della pubblica amministrazione<br></li> 
+     <li style="text-align: justify;">il mancato conferimento dei dati al Comune, il rifiuto a rispondere o la mancata acquisizione possono comportare l'impossibilità al compimento ed alla conclusione del procedimento amministrativo interessato ed all'erogazione del contributo<br></li> 
+     <li style="text-align: justify;">il trattamento dei dati degli utenti è improntato ai principi di correttezza, liceità e trasparenza, nel rispetto della riservatezza degli stessi<br></li> 
+     <li style="text-align: justify;">gli interessati (ossia le persone fisiche cui si riferiscono i dati personali) hanno il diritto all'accesso ai dati, alla rettifica, alla limitazione o opposizione al trattamento per motivi legittimi ed espressi, a presentare reclamo all'Autorità Garante della privacy<br></li> 
+     <li style="text-align: justify;">i dati trattati vengono acquisti dagli interessati o da soggetti terzi, sempre nel rispetto della normativa e delle finalità istituzionali dei trattamenti<br></li> 
+    </ul> 
+    <p style="text-align: justify; margin-left: 40px;"> <input type="checkbox" data-cke-editable="1" data-cke-saved-name="privacy" name="privacy" value="privacy" required><b>&nbsp;Presa visione dell'Informativa*</b></p> 
+    <div style="text-align:right"> 
+     <p>Il Sottoscritto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+     <p><strong><input type="text" data-cke-editable="1" data-cke-saved-name="CognomeFirma_510662762_727807582_2058588763" name="CognomeFirma_510662762_727807582_2058588763" ng-model="extraData.formUser.lastName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp="">&nbsp;<input type="text" data-cke-editable="1" data-cke-saved-name="nomeFirma_487797219_2035820701_2089250769" name="nomeFirma_487797219_2035820701_2089250769" ng-model="extraData.formUser.firstName" placeholder="" ng-disabled="disabledFields" data-validation-type="base" data-saved-regexp="" regexp=""></strong></p> 
+    </div>
+    <!--/gm-editable-region--> 
+   </div> 
+  </div> 
+  <script>
+    function onStart() {
+        popolaTutto();
+        calcolaEntrate();
+        calcolaUscite();
+    }
+    setTimeout(onStart, 1000);
+
+   function popolaTutto() {
+        $("span[class^='fill_']").each(function() {
+            var string=$(this).attr('class').substring(5);
+            console.log(string);
+            $(this).html($("#"+string).val());
+        });
+    }
+
+    function popola(string) {
+     $("span[class^='fill_"+string+"']").html($("#"+string).val());
+    }
+
+    var isDecimal = function(val, decimals) {   
+        var reString = "^\\s*((\\d+(\\.\\d{0," + decimals + "})?)|((\\d*(\\.\\d{1," + decimals + "}))))\\s*$"
+        var re = new RegExp(reString);
+        return re.test(val);   
+};
+
+
+ function calcolaEntrate() {
+    var totale=0;
+        $("input[name^='voceentrata']").each(function() {
+            var string=$(this).val();
+            console.log(string);
+            string = string.replaceAll(".", "").replaceAll(",", ".");            
+            if(isDecimal(string,2)){
+        totale=parseFloat(totale)+parseFloat(string);
+        totale=totale.toFixed(2);
+          }            
+        });
+        totale=totale.toString().replaceAll(".", ",");
+        $("#totaleentrate").val(totale);
+    }
+
+     function calcolaUscite() {
+    var totale=0;
+        $("input[name^='inputuscita']").each(function() {
+            var string=$(this).val();
+            console.log(string);
+            string = string.replaceAll(".", "").replaceAll(",", ".");            
+            if(isDecimal(string,2)){
+        totale=parseFloat(totale)+parseFloat(string);
+        totale=totale.toFixed(2);
+          }            
+        });
+        totale=totale.toString().replaceAll(".", ",");
+        $("#totaleuscite").val(totale);
+    }
+  </script> 
+ </body>
+</html>

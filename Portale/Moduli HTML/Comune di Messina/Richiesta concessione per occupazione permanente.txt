@@ -1,0 +1,368 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head></head>
+ <body>
+  <div class="row" id="Richiesta COSAP"> 
+   <div class="column col-md-12 col-sm-12 col-xs-12"> 
+    <!--gm-editable-region-->
+    <h3 style="text-align: center;margin-top:0;"><strong>Domanda di Concessione per OCCUPAZIONE PERMANENTE di area pubblica</strong></h3> 
+    <p><br></p> 
+    <table style="background-color:#f5f5f5;width:100%;" class="cke_show_border" cellspacing="1" cellpadding="1" border="0"> 
+     <tbody style="background-color:#f5f5f5"> 
+      <tr> 
+       <td><strong>Il/La sottoscritto/a*</strong></td> 
+       <td><br></td> 
+      </tr> 
+      <tr> 
+       <td>Cognome</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="cognomeScheda" name="cognomeScheda" placeholder="cognome" required="true" data-validation-type="base" data-saved-regexp="" regexp="" id="cognomeScheda"></td> 
+       <td>Nome</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="nomeScheda" name="nomeScheda" placeholder="nome" required="true" data-validation-type="base" data-saved-regexp="" regexp="" id="nomeScheda"></td> 
+      </tr> 
+      <tr> 
+       <td>Codice fiscale</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="cfScheda" name="cfScheda" placeholder="codice fiscale" required="true" data-validation-type="base" data-saved-regexp="" regexp="^[a-zA-Z]{6}[0-9]{2}[a-zA-Z][0-9]{2}[a-zA-Z][0-9]{3}[a-zA-Z]$" minlength="16" maxlength="16"></td> 
+       <td><br></td> 
+       <td><br></td> 
+      </tr> 
+      <tr> 
+       <td>Data di nascita</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="datanascitaScheda" name="datanascitaScheda" placeholder="data nascita" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+       <td>Luogo di nascita</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="luogonascitaScheda" name="luogonascitaScheda" placeholder="luogo nascita" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td>Comune di residenza</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="cittaResidenzaScheda" placeholder="città residenza" data-validation-type="base" data-saved-regexp="" name="cittaResidenzaScheda" regexp="" required="true"></td> 
+       <td>CAP</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="capResidenzaScheda" placeholder="cap residenza" data-validation-type="base" data-saved-regexp="" name="capResidenzaScheda" maxlength="5" required="true" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td>Via</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="indirizzoResidenzaScheda" name="indirizzoResidenzaScheda" placeholder="via/viale/c.so..." data-validation-type="base" data-saved-regexp="" required="true" regexp=""></td> 
+       <td>N.</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="numResidenzaScheda" name="numResidenzaScheda" placeholder="num civico" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td>Isolato</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="isolatoResidenzaScheda" name="isolatoResidenzaScheda" placeholder="isolato" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td><br></td> 
+       <td><br></td> 
+       <td><br></td> 
+       <td><br></td> 
+      </tr> 
+      <tr> 
+       <td>In qualità di</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="inqualitadi" name="inqualitadi" placeholder="in qualità di" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+       <td>Della Ditta</td> 
+       <td><input id="societa" type="text" data-cke-editable="1" data-cke-saved-name="associazione" name="associazione" placeholder="associazione" required="true" data-validation-type="base" data-saved-regexp="" regexp="" data-cke-pa-onchange="popola('societa')"></td> 
+      </tr> 
+      <tr> 
+       <td>Sede</td> 
+       <td><input type="text" id="sede" data-cke-editable="1" data-cke-saved-name="sedeScheda" name="sedeScheda" placeholder="sede" required="true" data-validation-type="base" data-saved-regexp="" regexp="" data-cke-pa-onchange="popola('sede')"></td> 
+       <td>Circoscrizione</td> 
+       <td><input type="text" id="circoscrizione" data-cke-editable="1" data-cke-saved-name="circoscrizioneScheda" name="circoscrizioneScheda" placeholder="circoscrizione" required="true" data-validation-type="base" data-saved-regexp="" regexp="" data-cke-pa-onchange="popola('circoscrizione')"></td> 
+      </tr> 
+      <tr> 
+       <td>Tel./Cell.</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="telScheda" name="telScheda" placeholder="telefono" required="true" data-validation-type="base" data-saved-regexp="" regexp="^\+?\d+$"></td> 
+       <td>Email</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="emailScheda" name="emailScheda" placeholder="email" required data-validation-type="base" data-saved-regexp="" regexp="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$"></td> 
+      </tr> 
+      <tr> 
+       <td>PEC</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="pecScheda" name="pecScheda" placeholder="PEC" required data-validation-type="base" data-saved-regexp="" regexp="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$"></td> 
+       <td></td> 
+       <td></td> 
+      </tr> 
+      <tr> 
+       <td>Codice fiscale</td> 
+       <td><input id="cf" type="text" data-cke-editable="1" data-cke-saved-name="cfDittaScheda" name="cfDittaScheda" placeholder="codice fiscale" required="true" data-validation-type="base" data-saved-regexp="" minlength="11" maxlength="16" data-cke-pa-onchange="popola('cf')"></td> 
+       <td>P. IVA</td> 
+       <td><input id="piva" type="text" data-cke-editable="1" data-cke-saved-name="pivaScheda" name="pivaScheda" placeholder="p. iva" required="true" data-validation-type="base" data-saved-regexp="" regexp="^[0-9]{11}$" minlength="11" maxlength="11" data-cke-pa-onchange="popola('piva')"></td> 
+      </tr> 
+      <tr> 
+       <td><br></td> 
+       <td><br></td> 
+       <td><br></td> 
+       <td><br></td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <p><br></p> 
+    <p style="text-align:center;"><b>CHIEDE</b></p> 
+    <p>Il rilascio della concessione di porzione di suolo pubblico, con estremi catastali N.C.E.U :</p> 
+    <table style="background-color:#f5f5f5;width:100%;" class="cke_show_border" cellspacing="1" cellpadding="1" border="0"> 
+     <tbody style="background-color:#f5f5f5"> 
+      <tr> 
+       <td>Superficie di metri quadri</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="areamq" name="areamq" placeholder="" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td>Via</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="indirizzoSuolo" name="indirizzoSuolo" placeholder="via/viale/c.so..." data-validation-type="base" data-saved-regexp="" required="true" regexp=""></td> 
+       <td>N.</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="numSuolo" name="numSuolo" placeholder="num civico" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td>Isolato</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="isolatoSuolo" name="isolatoSuolo" placeholder="isolato" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td><br></td> 
+       <td><br></td> 
+      </tr> 
+      <tr> 
+       <td>Foglio di mappa n.</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="foglioMappa" name="foglioMappa" placeholder="Foglio di mappa n." data-validation-type="base" data-saved-regexp="" required="true" regexp=""></td> 
+       <td>Particella n.</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="particella" name="particella" placeholder="Particella n." data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td>Coordinate geografiche:</td> 
+      </tr> 
+      <tr> 
+       <td>Latitudine</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="latitudine" name="latitudine" placeholder="Latitudine" data-validation-type="base" data-saved-regexp="" required="true" regexp=""></td> 
+       <td>Longitudine</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="longitudine" name="longitudine" placeholder="Longitudine" data-validation-type="base" data-saved-regexp="" required="true" regexp=""></td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <p><br></p> 
+    <p>Meglio indicata nell'allegata documentazione tecnica, redatta, datata e sottoscritta dall'Ingegnere/Architetto Geometra:</p> 
+    <table style="background-color:#f5f5f5;width:100%;" class="cke_show_border" cellspacing="1" cellpadding="1" border="0"> 
+     <tbody style="background-color:#f5f5f5"> 
+      <tr> 
+       <td>Cognome</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="cognomeIngegnere" name="cognomeIngegnere" placeholder="cognome ingegnere/architetto" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+       <td>Nome</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="nomeIngegnere" name="nomeIngegnere" placeholder="nome ingegnere/architetto" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td>Codice fiscale</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="cfIngegnere" name="cfIngegnere" placeholder="codice fiscale" required="true" data-validation-type="base" data-saved-regexp="" regexp="^[a-zA-Z]{6}[0-9]{2}[a-zA-Z][0-9]{2}[a-zA-Z][0-9]{3}[a-zA-Z]$" minlength="16" maxlength="16"></td> 
+       <td></td> 
+       <td></td> 
+      </tr> 
+      <tr> 
+       <td>Iscritto all'albo dei/degli</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="alboIngegnere" name="alboIngegnere" placeholder="iscritto all'albo" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+       <td>Della città di</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="cittaIngegnere" name="cittaIngegnere" placeholder="della città di" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+      <tr> 
+       <td>Numero matricola</td> 
+       <td><input type="text" data-cke-editable="1" data-cke-saved-name="matricolaIngegnere" name="matricolaIngegnere" placeholder="numero matricola" required="true" data-validation-type="base" data-saved-regexp="" regexp=""></td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <p><br></p> 
+    <p>al fine di occupare, in ottemperanza al vigente "Regolamento Comunale per il rilascio delle Concessioni suolo e l'applicazione del canone", il suolo pubblico comunale con:</p> 
+    <p><input type="radio" data-cke-editable="1" data-cke-saved-name="motivoOccupazione" name="motivoOccupazione" value="ChioscoDaAdibire" required class="dynamic_binded_control_highlight" saved-binding-ids="element-binding-chioscoA-binding;" dynamic-binded-control=""> Chiosco da adibire &nbsp;</p> 
+    <div specialdivbindingswitch="true" data-binding-id="element-binding-chioscoA-binding" class="is-bound" is-bound-to="motivoOccupazione-ChioscoDaAdibire">
+      a : 
+     <input type="text" data-cke-editable="1" data-cke-saved-name="chioscoA" name="chioscoA" placeholder="" required="true" data-validation-type="base" data-saved-regexp="" regexp=""> 
+    </div> 
+    <p><input type="radio" data-cke-editable="1" data-cke-saved-name="motivoOccupazione" name="motivoOccupazione" value="Gazebo" required> Gazebo</p> 
+    <p><input type="radio" data-cke-editable="1" data-cke-saved-name="motivoOccupazione" name="motivoOccupazione" value="DistributoreAutomatico" class="dynamic_binded_control_highlight" saved-binding-ids="element-binding-distributore_binding;" dynamic-binded-control="" required> Distributore automatico &nbsp;</p> 
+    <div specialdivbindingswitch="true" data-binding-id="element-binding-distributore_binding" class="is-bound" is-bound-to="motivoOccupazione-DistributoreAutomatico">
+      di : 
+     <input type="text" data-cke-editable="1" data-cke-saved-name="distributoreDi" name="distributoreDi" placeholder="" required="true" data-validation-type="base" data-saved-regexp="" regexp=""> 
+    </div> 
+    <p><input type="radio" data-cke-editable="1" data-cke-saved-name="motivoOccupazione" name="motivoOccupazione" value="ImpiantiDistribuzioneCarburanti" required> Impianti Distribuzione Carburanti</p> 
+    <p><input type="radio" data-cke-editable="1" data-cke-saved-name="motivoOccupazione" name="motivoOccupazione" value="Dehors" required> Dehors</p> 
+    <p><input type="radio" data-cke-editable="1" data-cke-saved-name="motivoOccupazione" name="motivoOccupazione" value="RampaAccessoDisabili" required> Rampa di accesso Disabili</p> 
+    <p><input type="radio" data-cke-editable="1" data-cke-saved-name="motivoOccupazione" name="motivoOccupazione" value="Altro" class="dynamic_binded_control_highlight" saved-binding-ids="element-binding-altro_binding;" dynamic-binded-control="" required> Altro</p> 
+    <div specialdivbindingswitch="true" data-binding-id="element-binding-altro_binding" class="is-bound" is-bound-to="motivoOccupazione-Altro"> 
+     <input type="text" data-cke-editable="1" data-cke-saved-name="altro" name="altro" placeholder="" required="true" data-validation-type="base" data-saved-regexp="" regexp=""> 
+    </div> 
+    <p><br></p> 
+    <p style="text-align: justify;">L'occupazione suolo richiesta per un periodo di anni: <input type="text" data-cke-editable="1" required="true" data-validation-type="builder" data-saved-regexp="" regexp="^[0-9]$" data-cke-saved-name="periodoNumero" name="periodoNumero" placeholder=""><small class="remove-from-pdf"> (da 1 a 9)</small></p> 
+    <p><br></p> 
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px"> 
+     <br> 
+    </div> 
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px"> 
+     <br> 
+    </div> 
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px"> 
+     <br> 
+    </div> 
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px"> 
+     <br> 
+    </div>
+    <!--/gm-editable-region--> 
+   </div> 
+  </div> 
+  <div class="row" id="Allegati"> 
+   <div class="column col-md-12 col-sm-12 col-xs-12"> 
+    <!--gm-editable-region-->
+    <p style="margin-top:0;"><strong>Si allega la seguente documentazione:</strong></p> 
+    <p><br></p> 
+    <p style="text-align: justify;">1) Relazione illustrativa dell'area che si intende occupare e delle eventuali opere che si intendono realizzare, completa di calcolo delle superfici da occupare e relative aree di pertinenza;</p> 
+    <p></p> 
+    <p style="text-align:right;"><input name="btndoc1" data-cke-saved-name="btndoc1" value="Allega Relazione illustrativa (n.1)" type="button" data-cke-saved-type="upload" data-cke-editable="1" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" upload-required="true" uploader-module="Relazione illustrativa"></p> 
+    <p style="text-align: justify;">2) Planimetria d'insieme, in scala (1:200 e/o 1:500), quotata ed orientata, che riproduca la situazione originaria dei luoghi, ivi compresi la denominazione e la larghezza delle strade adiacenti, le dimensioni dei marciapiedi e l'individuazione di alberi, aiuole, pali di illuminazione, segnaletica orizzontale e verticale, cabine telefoniche, indicazione delle reti dei pubblici servizi e/o ogni altro particolare di rilievo;</p> 
+    <p style="text-align:right;"><input name="btndoc2" data-cke-saved-name="btndoc2" value="Allega Planimetria d'insieme (n.2)" type="button" data-cke-saved-type="upload" data-cke-editable="1" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" upload-required="true" uploader-module="Planimetria d'insieme"></p> 
+    <p style="text-align: justify;">3) Planimetria d'insieme, nella medesima scala di cui al punto "2" quotata ed orientata, dove si rappresenta nelle sue linee, dimensioni, quote generali, altezza e distanze, l'opera progettata unitamente a tutte le coerenze, la denominazione e la larghezza delle sedi stradali adiacenti, le dimensioni dei marciapiedi, la linea per ipovedenti se presente, l'individuazione di alberi, aiuole, pali di pubblica illuminazione, segnaletica orizzontale e verticale, cabine telefoniche, indicazione delle reti dei pubblici servizi e/o ogni altro particolare di rilievo;</p> 
+    <p style="text-align:right;"><input name="btndoc3" data-cke-saved-name="btndoc3" value="Allega Planimetria d'insieme (n.3)" type="button" data-cke-saved-type="upload" data-cke-editable="1" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" uploader-module="Planimetria d'insieme" upload-required="true"></p> 
+    <p style="text-align: justify;">4) Pianta e prospetto in scala (1:50 e/o 1:100) del luogo ove insiste l'occupazione di suolo pubblico richiesta, con evidenziati i tipi e le forme delle attrezzature previste, che riproducono l'esatto stato dei luoghi;</p> 
+    <p style="text-align:right;"><input name="btndoc4" data-cke-saved-name="btndoc4" value="Allega Pianta e prospetto in scala (n.4)" type="button" data-cke-saved-type="upload" data-cke-editable="1" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" uploader-module="Pianta e prospetto in scala" upload-required="true"></p> 
+    <p style="text-align: justify;">5) Almeno 2 (due) sezioni verticali in scala (1:50 e/o 1: 100), dettagliatamente quotate e ortogonali tra loro;</p> 
+    <p style="text-align:right;"><input name="btndoc5" data-cke-saved-name="btndoc5" value="Allega Sezioni verticali in scala (n.5)" type="button" data-cke-saved-type="upload" data-cke-editable="1" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" uploader-module="Sezioni verticali in scala" upload-required="true"></p> 
+    <p style="text-align: justify;">6) Documentazione fotografica, a colori, della zona interessata ed esauriente documentazione fotografica dello stato di fatto di eventuali manufatti esistenti;</p> 
+    <p style="text-align:right;"><input name="btndoc6" data-cke-saved-name="btndoc6" value="Allega Documentazione fotografica (n.6)" type="button" data-cke-saved-type="upload" data-cke-editable="1" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" uploader-module="Documentazione fotografica" upload-required="true"></p> 
+    <p style="text-align: justify;">7) Autorizzazioni rilasciate dagli Enti preposti (Dipartimento Politiche del Territorio - Soprintendenza ai BB.CC.AA. - Amministratore di Condominio, proprietario dell'immobile etc.;</p> 
+    <p style="text-align:right;"><input name="btndoc7" data-cke-saved-name="btndoc7" value="Allega Autorizzazioni Enti (n.7)" type="button" data-cke-saved-type="upload" data-cke-editable="1" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" uploader-module="Autorizzazioni Enti"></p> 
+    <p style="text-align: justify;">8) Eventuali Autorizzazioni o allacci alla rete fognaria, idrica, Enel, Telecom, gas o altro;</p> 
+    <p style="text-align:right;"><input name="btndoc8" data-cke-saved-name="btndoc8" value="Allega altre Autorizzazioni (n.8)" type="button" data-cke-saved-type="upload" data-cke-editable="1" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" uploader-module="Altre autorizzazioni"></p> 
+    <p style="text-align: justify;">9) Copia fotostatica dell'Autorizzazione Amministrativa, nel caso in cui l'occupazione è strumentale all'esercizio di attività commerciale;</p> 
+    <p style="text-align:right;"><input name="btndoc9" data-cke-saved-name="btndoc9" value="Allega Copia Autorizzazione Amministrativa (n.9)" type="button" data-cke-saved-type="upload" data-cke-editable="1" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" uploader-module="Copia Autorizzazione Amministrativa"></p> 
+    <p style="text-align: justify;">10) Attestazione di versamento in originale, della somma di 120,00 euro sul C.C.P. n. 14063986 Intestato al Comune di Messina - Causale: Tassa istruttoria per occupazione suolo - Cap. 525/09.</p> 
+    <p style="text-align:right;"><input name="btndoc10" data-cke-saved-name="btndoc10" value="Allega Versamento istruttoria (n.10)" type="button" data-cke-saved-type="upload" data-cke-editable="1" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" uploader-module="Versamento tassa istruttoria" upload-required="true"></p> 
+    <p style="text-align: justify;">11) Eventuale documento di delega</p> 
+    <p style="text-align:right;"><input name="btndoc11" data-cke-saved-name="btndoc11" value="Allega Delega (n.11)" type="button" data-cke-saved-type="upload" data-cke-editable="1" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" uploader-module="Delega"></p> 
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px">
+      &nbsp; 
+    </div>
+    <!--/gm-editable-region--> 
+   </div> 
+  </div> 
+  <div class="row" id="DICHIARAZIONE SOSTITUTIVA"> 
+   <div class="column col-md-12 col-sm-12 col-xs-12"> 
+    <!--gm-editable-region-->
+    <p style="text-align:center;">Il sottoscritto</p> 
+    <p style="text-align:center;"><b>DICHIARA</b></p> 
+    <p style="text-align: justify;">- Ai sensi del D.P.R. 445/00 che i dati sopra riportati sono veritieri;</p> 
+    <p style="text-align: justify;">- Di non aver subito provvedimenti che importino limitazioni del potere di contrarre con la Pubblica Amministrazione;</p> 
+    <p style="text-align: justify;">- Che l'occupazione è conforme alle vigenti disposizioni del Codice della Strada e del Regolamento Comunale C.O.S.A.P. adottato con Deliberazione del Consiglio Comunale n. 17/C del 31 Marzo 2001 e ss.mm.ii.;</p> 
+    <p style="text-align: justify;">- Di non essere debitore/trice di somme per occupazione suolo ed eventuali sanzioni con l'Amministrazione Comunale.</p> 
+    <p style="margin-left: 40px;"><input type="checkbox" data-cke-editable="1" data-cke-saved-name="dichiarazionecheck" name="dichiarazionecheck" value="dichiarazionecheck" required><b>&nbsp;Presa visione e accettazione*</b><br></p> 
+    <p><br></p> 
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px"> 
+     <br> 
+    </div> 
+    <p><br></p> 
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px">
+      &nbsp; 
+    </div>
+    <!--/gm-editable-region--> 
+   </div> 
+  </div> 
+  <div class="row" id="Marca da bollo"> 
+   <div class="column col-md-12 col-sm-12 col-xs-12"> 
+    <!--gm-editable-region-->
+    <p style="text-align:center;">Il sottoscritto</p> 
+    <p style="text-align:center;"><b>DICHIARA</b></p> 
+    <p><input type="radio" data-cke-editable="1" data-cke-saved-name="bollo" name="bollo" value="no" required>&nbsp;di essere esente dal pagamento dell'imposta di bollo.</p> 
+    <p><input type="radio" data-cke-editable="1" data-cke-saved-name="bollo" name="bollo" value="si" class="dynamic_binded_control_highlight" saved-binding-ids="element-binding-div_marcabollo;" dynamic-binded-control="">&nbsp;di non essere esente dal pagamento dell'imposta di bollo</p> 
+    <div style="background:#eee;border:1px solid #ccc;padding:5px 10px;" id="div_marcabollo" specialdivbindingswitch="true" data-binding-id="element-binding-div_marcabollo" class="is-bound" is-bound-to="bollo-si"> 
+     <p>e di aver assolto al pagamento dell'imposta di bollo di 16,00 euro</p> 
+     <p><input type="radio" data-cke-editable="1" data-cke-saved-name="pagamentoimposta" name="pagamentoimposta" value="digitale" required class="dynamic_binded_control_highlight" saved-binding-ids="element-binding-versamentotelematico;" dynamic-binded-control="">&nbsp;tramite versamento eseguito con modello F23 che si allega alla presente richiesta.</p> 
+     <div style="background:#eee;border:1px solid #ccc;padding:5px 10px;" id="versamentotelematico" specialdivbindingswitch="true" data-binding-id="element-binding-versamentotelematico" class="is-bound" is-bound-to="pagamentoimposta-digitale"> 
+      <p>Si allega <input name="pulsanteversamentotelematico" data-cke-saved-name="pulsanteversamentotelematico" value="ricevuta versamento imposta di bollo" type="button" data-cke-saved-type="upload" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" upload-required="true" uploader-module="Ricevuta versamento imposta di bollo" data-cke-editable="1"></p> 
+     </div> 
+     <p><input type="radio" data-cke-editable="1" data-cke-saved-name="pagamentoimposta" name="pagamentoimposta" value="cartaceo" required class="dynamic_binded_control_highlight" saved-binding-ids="element-binding-versamentocartaceo;" dynamic-binded-control="">&nbsp;tramite acquisto della marca da bollo ed apposizione della medesima, previo annullamento, sulla dichiarazione di assolvimento dell'imposta di bollo che si allega alla presente richiesta.</p> 
+     <div style="background:#eee;border:1px solid #ccc;padding:5px 10px;" id="versamentocartaceo" specialdivbindingswitch="true" data-binding-id="element-binding-versamentocartaceo" class="is-bound" is-bound-to="pagamentoimposta-cartaceo"> 
+      <p>Si allega <input name="btndichiarazioneassolvimento" data-cke-saved-name="btndichiarazioneassolvimento" value="dichiarazione assolvimento imposta di bollo" type="button" data-cke-saved-type="upload" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" upload-required="true" uploader-module="Dichiarazione assolvimento imposta di bollo" data-cke-editable="1"></p> 
+     </div> 
+     <p><br></p> 
+    </div> 
+    <p style="text-align: justify; "><br></p> 
+    <p style="text-align: justify; ">Il sottoscritto è consapevole:</p> 
+    <ol> 
+     <li style="text-align: justify;">di essere penalmente responsabile se rilascia false dichiarazioni (art. 76 D.P.R. 445/2000);</li> 
+     <li style="text-align: justify;">di decadere dai benefici a seguito di un provvedimento adottato sulla base delle false dichiarazioni (art. 75 D.P.R. 445/2000).</li> 
+    </ol> 
+    <p style="text-align: justify;">L'amministrazione si riserva di controllare la veridicità delle dichiarazioni rese (art. 71 D.P.R. 445/2000).</p> 
+    <p style="text-align: justify; margin-left: 40px;"><input type="checkbox" data-cke-editable="1" data-cke-saved-name="marcabollocheck" name="marcabollocheck" value="marcabollocheck" required><b>&nbsp;Presa visione e accettazione*</b></p> 
+    <p><br></p> 
+    <p><br></p> 
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px"> 
+     <br> 
+    </div> 
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px">
+      &nbsp; 
+    </div>
+    <!--/gm-editable-region--> 
+   </div> 
+  </div> 
+  <div class="row" id="Privacy"> 
+   <div class="column col-md-12 col-sm-12 col-xs-12"> 
+    <!--gm-editable-region-->
+    <p style="margin-top:0;"><strong>Informativa privacy (artt. 13-14 Reg. UE 2016/679)</strong></p> 
+    <p><br></p> 
+    <p style="text-align: justify;">Ai sensi del Decreto Legislativo n. 196/2003 e del Regolamento UE 679/2016 come armonizzato con il Decreto Legislativo n. 101/2018, si informa il richiedente che il trattamento dei dati personali forniti con la presente istanza o comunque acquisiti a tale scopo da questa Amministrazione è finalizzato unicamente all'espletamento della procedura medesima ed avverrà con l'utilizzo anche delle procedure informatizzate, nei modi e nei limiti necessari per perseguire le predette finalità, anche in caso di comunicazione a terzi.</p> 
+    <p><br></p> 
+    <p style="text-align: justify; margin-left: 40px;"><input type="checkbox" data-cke-editable="1" data-cke-saved-name="privacy" name="privacy" value="privacy" required><b>&nbsp;Presa visione dell'Informativa*</b></p> 
+    <p><br></p> 
+    <p><input type="text" data-cke-editable="1" data-cke-saved-name="dataRichiesta" name="dataRichiesta" placeholder="gg/mm/aaaa" current-date="" data-validation-type="base" data-saved-regexp="" ng-disabled="disabledFields" regexp=""></p> 
+    <p><br></p> 
+    <p><br></p> 
+    <p class="remove-from-pdf">Indicare la modalità di Firma per il presente documento:</p> 
+    <p class="remove-from-pdf"><input type="radio" data-cke-editable="1" data-cke-saved-name="firmadigitale" name="firmadigitale" value="si" required class="dynamic_binded_control_highlight" saved-binding-ids="element-binding-div_firmadigitale;" dynamic-binded-control="">&nbsp;Firma digitale</p> 
+    <div style="background:#eee;border:1px solid #ccc;padding:5px 10px;" id="div_firmadigitale" specialdivbindingswitch="true" data-binding-id="element-binding-div_firmadigitale" class="is-bound" is-bound-to="firmadigitale-si"> 
+     <p style="text-align: right;"><strong>Il presente documento viene sottoscritto digitalmente</strong></p> 
+    </div> 
+    <p class="remove-from-pdf"><input type="radio" data-cke-editable="1" data-cke-saved-name="firmadigitale" name="firmadigitale" value="no" required class="dynamic_binded_control_highlight" saved-binding-ids="element-binding-divcartaidentita;" dynamic-binded-control="">&nbsp;Firma autografa</p> 
+    <div style="background:#eee;border:1px solid #ccc;padding:5px 10px;" id="divcartaidentita" specialdivbindingswitch="true" data-binding-id="element-binding-divcartaidentita" class="is-bound" is-bound-to="firmadigitale-no"> 
+     <p>Si allega scansione della carta di identità del sottoscritto <input name="btncartaidentita" data-cke-saved-name="btncartaidentita" value="carta identità" type="button" data-cke-saved-type="upload" data-cke-editable="1" uploader-button="uploader-button" my-document-template="myDocumentTemplate" my-document="myDocument" additional-documents="additionalDocuments" extra-data="extraData" upload-required="true" uploader-module="Carta di identità"></p> 
+     <p><br></p> 
+     <p style="text-align: right;"><strong>FIRMA del Sottoscritto <span id="sottoscritto"> </span></strong></p> 
+     <p style="text-align: right;">_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _</p> 
+    </div> 
+    <div style="text-align:right"> 
+     <p><br></p> 
+    </div> 
+    <p><br></p> 
+    <div data-cke-hidden-sel="1" data-cke-temp="1" style="position:fixed;top:0;left:-1000px">
+      &nbsp; 
+    </div>
+    <!--/gm-editable-region--> 
+   </div> 
+  </div> 
+  <script>
+   function onStart() {
+     popolaTutto();
+     inserisciNomeSottoscritto();
+   }
+   setTimeout(onStart, 1000);
+   
+   function popolaTutto() {
+     $("span[class^='fill_']").each(function () {
+       var string = $(this).attr('class').substring(5);
+       console.log(string);
+       $(this).html($("#" + string).val());
+     });
+   }
+   
+   function popola(string) {
+     $("span[class^='fill_" + string + "']").html($("#" + string).val());
+   }
+   
+   var isDecimal = function (val, decimals) {
+     var reString = "^\\s*((\\d+(\\.\\d{0," + decimals + "})?)|((\\d*(\\.\\d{1," + decimals + "}))))\\s*$"
+     var re = new RegExp(reString);
+     return re.test(val);
+   };
+
+   function inserisciNomeSottoscritto() {
+    var nome=$("#nomeScheda").val();
+    var cognome=$("#cognomeScheda").val();
+    $("#sottoscritto").html(nome+" "+cognome);
+   }
+
+   $( "#nomeScheda" ).change(function() {
+  inserisciNomeSottoscritto();
+});
+
+   $( "#cognomeScheda" ).change(function() {
+  inserisciNomeSottoscritto();
+}); 
+   
+   
+</script> 
+ </body>
+</html>
